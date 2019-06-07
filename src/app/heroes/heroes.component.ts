@@ -21,12 +21,7 @@ export class HeroesComponent implements OnInit {
 		this.selectedHero = hero;
 	}
 
-	postData(): void {
-		alert(someProp)
-	}
-
   	constructor() {
-  		this.someProp ="some value"
 	}
 
 	ngOnInit() {
